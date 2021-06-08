@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sorting Algorithm Visualizer</title>
+
+    <link rel="stylesheet" type="text/css" href="css/design.css">
+    
+</head>
+<body>
+    <nav class="nav">
+        <span id="project" class="links Projects">Projects</span>
+        <span id="contact" class="links Contact">Contact</span>
+    </nav>
+    
+    <div id="heading">
+        <p>Sorting Algorithm Visualizer</p>
+    </div>
+    
+    <div id="options">
+        <div id="barmenu">
+            <button  id="count"type="button" value="50">
+                Bar Count:  50  &nbsp
+                <span class="arrow">&#x25BC;</span>
+            </button>
+            <div id="barsub">
+                        <button class="Subbutt" id="b50" type="button">
+                            Bar Count:  50 &nbsp
+                        </button>
+
+                        <button class="Subbutt" id="b75" type="button">
+                            Bar Count:  75 &nbsp
+                        </button>
+
+                        <button class="Subbutt" id="b100" type="button">
+                            Bar Count:  100 &nbsp
+                        </button>
+
+                        <button class="Subbutt" id="b125" type="button">
+                            Bar Count:  125 &nbsp
+                        </button>
+    
+                        <button class="Subbutt" id="b150" type="button">
+                            Bar Count:  150 &nbsp
+                        </button>
+            </div>
+        </div>
+
+        <div id="speedmenu">    
+            <button  id="speed"type="button" value="3">
+                Speed:  1 X &nbsp
+                <span class="arrow">&#x25BC;</span>
+            </button>
+            <div id="speedsub">
+                <button class="Subbutt" id="s1" type="button">
+                    Speed:  0.5 X &nbsp
+                </button>
+
+                <button class="Subbutt"  id="s2" type="button">
+                    Speed:  0.75 X &nbsp
+                </button>
+
+                <button class="Subbutt" id="s3" type="button">
+                    Speed:  1 X &nbsp
+                </button>
+
+                <button class="Subbutt"  id="s4" type="button">
+                    Speed:  1.5 X &nbsp
+                </button>
+
+                <button class="Subbutt"  id="s5" type="button">
+                    Speed:  2 X &nbsp
+                </button>
+            </div>
+        </div>
+
+
+        <button  id="start" type="button">
+            Start
+        </button>
+
+        <div id="algomenu">
+            <button id="algorithm" type="button" value="bubble">
+                Bubble Sort &nbsp
+                <span class="arrow">&#x25BC;</span>
+            </button>
+            <div id="algosub">
+                <button class="Subbutt" id="a1" type="button">
+                    Bubble Sort
+                </button>
+
+                <button class="Subbutt" id="a2" type="button">
+                    Insertion Sort
+                </button>
+
+                <button class="Subbutt" id="a3" type="button">
+                    Selection Sort
+                </button>
+
+                <button class="Subbutt" id="a4" type="button">
+                    Merge Sort
+                </button>
+
+                <button class="Subbutt" id="a5" type="button">
+                    Quick sort
+                </button>
+            </div>
+        </div>
+
+        <button id="generate" type="button">
+            Generate new Array &nbsp
+        </button>
+    </div>
+
+     <canvas></canvas>
+
+     <div id="footnote">
+        <p id="madeby">Made by: Anand kumar Gupta </p>
+    </div>
+    
+</body>
+        <script src="https://code.jquery.com/jquery-3.6.0.js" 
+        integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" 
+        crossorigin="anonymous">
+        </script>
+        <script src="js/sorting.js"></script>
+        <script src="js/slector.js"></script>
+        <script src="js/enable.js"></script>
+        <script src="js/main.js"></script>
+</html>
